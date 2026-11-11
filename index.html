@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For UK contractors under the CIS: the monthly CIS return prepared for HMRC and a payment and deduction statement for every subcontractor.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,38 +69,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">CIS Monthly</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">CIS Monthly</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Your monthly CIS return and subcontractor statements, ready before the 19th</h1>
-    <p class="sub">For small building contractors who pay subcontractors under CIS: record what you paid each subcontractor and what you deducted, and get the monthly return for HMRC and a statement for each subcontractor in time for the deadline.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For small building contractors</p>
+      <h1 class="rise" style="--i:1" data-len="long">Your monthly CIS return and subcontractor statements, ready before the 19th</h1>
+      <p class="rise" style="--i:2">For small building contractors who pay subcontractors under CIS: record what you paid each subcontractor and what you deducted, and get the monthly return for HMRC and a statement for each subcontractor in time for the deadline.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">CIS return</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">each subcontractor</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="382" font-size="32" fill="#0a1524">Monthly return</text><rect x="130" y="450" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="500" width="220" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="550" width="260" height="22" rx="8" fill="#dde2ea" /><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">the 19th</text><rect x="750" y="490" width="50" height="130" rx="8" fill="#12397a" /><rect x="830" y="530" width="50" height="90" rx="8" fill="#ffffff" /><rect x="910" y="440" width="50" height="180" rx="8" fill="#b9c3d2" /><rect x="990" y="550" width="50" height="70" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Small building contractors</dd></div>
+      <div><dt>Return</dt><dd>Monthly CIS return</dd></div>
+      <div><dt>Paid</dt><dd>What you paid</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Payments</b><span>Each payment to a subcontractor, labour and materials apart.</span><br><a class="btn" href="price.html" data-ev="feature_payments">I need this</a></div>
-      <div class="card"><b>Deductions</b><span>20%, 30% or gross status for each subcontractor.</span><br><a class="btn" href="price.html" data-ev="feature_deductions">I need this</a></div>
-      <div class="card"><b>Monthly return</b><span>The CIS return ready before the 19th.</span><br><a class="btn" href="price.html" data-ev="feature_return">I need this</a></div>
-      <div class="card"><b>Statements</b><span>A payment and deduction statement for each subcontractor.</span><br><a class="btn" href="price.html" data-ev="feature_statements">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Payments</text><text x="120" y="195" font-size="30" fill="#566174">materials apart</text><rect x="140" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><polyline points="150,272 158,284 174,260" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" /><rect x="210" y="262" width="300" height="20" rx="8" fill="#dde2ea" /><rect x="140" y="330" width="44" height="44" rx="8" fill="#dfe8f7" /><polyline points="150,352 158,364 174,340" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" /><rect x="210" y="342" width="240" height="20" rx="8" fill="#b9c3d2" /><rect x="140" y="410" width="44" height="44" rx="8" fill="#eef2f7" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="422" width="270" height="20" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Payments</h3><p>Each payment to a subcontractor, labour and materials apart.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_payments">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Deductions</text><text x="120" y="190" font-size="30" fill="#566174">gross status</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="350" width="70" height="120" rx="8" fill="#b9c3d2" /><rect x="280" y="270" width="70" height="200" rx="8" fill="#12397a" /><rect x="400" y="390" width="70" height="80" rx="8" fill="#dfe8f7" /><rect x="520" y="320" width="70" height="150" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Deductions</h3><p>20%, 30% or gross status for each subcontractor.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_deductions">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Monthly return</text><rect x="140" y="190" width="340" height="280" rx="12" fill="#eef2f7" /><rect x="170" y="230" width="260" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="270" width="200" height="18" rx="8" fill="#b9c3d2" /><rect x="170" y="310" width="240" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="350" width="160" height="18" rx="8" fill="#b9c3d2" /><circle cx="560" cy="330" r="64" fill="#dfe8f7" /><polyline points="524,330 548,358 602,290" fill="none" stroke="#12397a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><text x="170" y="430" font-size="30" fill="#566174">before the 19th</text></svg></div>
+        <h3>Monthly return</h3><p>The CIS return ready before the 19th.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_return">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="120" font-size="32" font-weight="600" fill="#0a1524">Statements</text><text x="80" y="170" font-size="30" fill="#566174">each subcontractor</text><rect x="70" y="220" width="250" height="280" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="260" width="180" height="18" rx="8" fill="#dde2ea" /><rect x="100" y="300" width="140" height="18" rx="8" fill="#b9c3d2" /><rect x="100" y="340" width="160" height="18" rx="8" fill="#dde2ea" /><path d="M340 360 H420" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="420,346 456,360 420,374" fill="#12397a" /><rect x="480" y="220" width="250" height="280" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="260" width="180" height="18" rx="8" fill="#dfe8f7" /><rect x="510" y="300" width="150" height="18" rx="8" fill="#dde2ea" /><rect x="510" y="340" width="170" height="18" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Statements</h3><p>A payment and deduction statement for each subcontractor.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_statements">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A roofing contractor in Bristol pays four subcontractors every week. At the end of each tax month he used to add up the payments from his bank app and type the return on the 18th. Now each payment is recorded with labour and materials apart, the deductions are worked out at each subcontractor's rate, and on the 6th the return and four statements are ready.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A roofing contractor in Bristol pays four subcontractors every week. At the end of each tax month he used to add up the payments from his bank app and type the return on the 18th. Now each payment is recorded with labour and materials apart, the deductions are worked out at each subcontractor's rate, and on the 6th the return and four statements are ready.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">tax month</text><text x="600" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">the 19th</text><text x="960" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">four statements</text><rect x="120" y="310" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">payment and deduction</text><text x="170" y="480" font-size="32" fill="#566174">before the 19th</text><rect x="170" y="560" width="180" height="24" rx="8" fill="#dde2ea" /><rect x="370" y="560" width="140" height="24" rx="8" fill="#b9c3d2" /><rect x="530" y="560" width="220" height="24" rx="8" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Under the Construction Industry Scheme, a contractor who pays subcontractors for construction work has to send HMRC a monthly return by the 19th of each month, listing the payments made in the tax month and the tax deducted.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Under the Construction Industry Scheme, a contractor who pays subcontractors for construction work has to send HMRC a monthly return by the 19th of each month, listing the payments made in the tax month and the tax deducted.</p>
     <p>Each subcontractor must also get a statement of what was paid and what was deducted, so they can claim it back against their own tax. A late return brings a fixed penalty from HMRC, and further penalties if it stays late. Answers to common questions are in the <a href="#faq" data-ev="click_opis_faq">questions section</a>, and you can start <a href="#start" data-ev="click_opis_start">at the bottom of the page</a>.</p>
     <p>CIS Monthly does one narrow job: it keeps your CIS payments and prepares the monthly return and the subcontractor statements.</p>
     <p>Each payment is recorded with the subcontractor, the date and the amounts for labour and for materials, because deductions are taken from labour only.</p>
@@ -112,29 +146,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Before the deadline you see one simple list: which months are ready, which are still open and how many days are left until the 19th.</p>
     <p>To start, you only need the list of your subcontractors and the payments of the current tax month.</p>
     <p>CIS Monthly prepares the return and the statements; verifying subcontractors with HMRC and submitting the return stay your responsibility.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>When is the return due?</h3>
-    <p>By the 19th of each month, for the tax month that ended on the 5th.</p>
-    <h3>Who is it for?</h3>
-    <p>Small UK contractors who pay subcontractors for construction work under CIS.</p>
-    <h3>Does it submit the return to HMRC?</h3>
-    <p>No. It prepares the return and the statements; you submit the return in your HMRC account.</p>
-    <h3>Can I use it now?</h3>
-    <p>Not yet. The service is being prepared, and we are checking whether contractors in the UK need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>When is the return due?</h3><p>By the 19th of each month, for the tax month that ended on the 5th.</p></div>
+      <div class="split flip"><h3>Who is it for?</h3><p>Small UK contractors who pay subcontractors for construction work under CIS.</p></div>
+      <div class="split flip"><h3>Does it submit the return to HMRC?</h3><p>No. It prepares the return and the statements; you submit the return in your HMRC account.</p></div>
+      <div class="split flip"><h3>Can I use it now?</h3><p>Not yet. The service is being prepared, and we are checking whether contractors in the UK need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Get started</h2>
-    <p><label>How many subcontractors do you pay in a month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–5</option><option>6–20</option><option>Over 20</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Get started</h2>
+    </div>
+    <div class="tile stack">
+      <label>How many subcontractors do you pay in a month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–5</option><option>6–20</option><option>Over 20</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>CIS Monthly</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">CIS Monthly prepares the CIS return and the subcontractor statements; the submission to HMRC and the verification of subcontractors stay with the contractor.</p>
+  <p>CIS Monthly prepares the CIS return and the subcontractor statements; the submission to HMRC and the verification of subcontractors stay with the contractor.</p>
 </div></footer>
 
 </body>
